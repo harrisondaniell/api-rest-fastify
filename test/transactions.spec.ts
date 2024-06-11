@@ -106,7 +106,7 @@ describe('Transactions routes', () => {
       })
 
     const summaryResponse = await resquest(app.server)
-      .get('/transactions/summary')
+      .get('/transactions /summary')
       .set('Cookie', cookies ?? [])
       .expect(200)
 
