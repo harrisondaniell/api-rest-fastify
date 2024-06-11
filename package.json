@@ -4,7 +4,7 @@
   "description": "��#\u0000 \u0000a\u0000p\u0000i\u0000-\u0000r\u0000e\u0000s\u0000t\u0000-\u0000f\u0000a\u0000s\u0000t\u0000i\u0000f\u0000y\u0000\r\u0000 \u0000",
   "main": "index.js",
   "engines": {
-    "node": ">=20"
+    "node": "<=20"
   },
   "scripts": {
     "dev": "tsx watch src/server.ts",
