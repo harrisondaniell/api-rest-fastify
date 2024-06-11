@@ -1,4 +1,5 @@
 import { config } from 'dotenv'
+import { hostname } from 'node:os'
 import { z } from 'zod'
 
 if (process.env.NODE_ENV === 'test') {
