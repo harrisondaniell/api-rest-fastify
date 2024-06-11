@@ -7,6 +7,7 @@ app
   })
   .then(() => {
     console.log('http server running')
+    console.log(env.PORT)
   })
 
 // async function removeCorruptMigrations() {
